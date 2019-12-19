@@ -1,0 +1,11 @@
+prefix=D:/dev/protobuf-3.11.1/cmake/build/install
+exec_prefix=D:/dev/protobuf-3.11.1/cmake/build/install
+libdir=D:/dev/protobuf-3.11.1/cmake/build/install/lib
+includedir=D:/dev/protobuf-3.11.1/cmake/build/install/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.11.1.0
+Libs: -L${libdir} -lprotobuf 
+Cflags: -I${includedir} 
+Conflicts: protobuf-lite
