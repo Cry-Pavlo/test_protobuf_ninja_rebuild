@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-import "a.proto";
-
-message B
-{
-	int32 b = 1;
-	A a = 2;
-}

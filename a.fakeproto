@@ -1,0 +1,14 @@
+#pragma once
+
+struct A 
+{
+	void func();
+	//void asdf();
+};
+
+<<<<<
+
+#include "a.pb.h"
+
+void A::func()
+{}

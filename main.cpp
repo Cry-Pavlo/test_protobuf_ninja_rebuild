@@ -2,14 +2,11 @@
 #include "b.pb.h"
 
 
-void sep();
-void foo();
-
 
 int main()
 {
 	A a;
-	//a.a();
+	a.func();
 	B b;
 	b.b();
 

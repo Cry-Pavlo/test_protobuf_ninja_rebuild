@@ -1,0 +1,19 @@
+#pragma once
+
+#include "a.pb.h"
+
+struct B
+{
+	void b();
+
+	A a;
+};
+
+<<<<<
+
+#include "b.pb.h"
+
+void B::b()
+{
+	a.func();
+}
