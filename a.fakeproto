@@ -3,7 +3,7 @@
 struct A 
 {
 	void func();
-	//void asdf();
+	void asdf();
 };
 
 <<<<<
